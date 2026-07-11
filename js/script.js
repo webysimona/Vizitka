@@ -137,6 +137,12 @@ form.addEventListener("submit", async function (e) {
      }
 });
 
+const shareButton = document.getElementById('share-btn');
+if (shareButton) { // <--- Tato podmínka zabrání chybě
+     shareButton.addEventListener('click', openModal);
+}
+
+
 // Cookies
 function setCookie(name, value, days) {
      let expires = '';
