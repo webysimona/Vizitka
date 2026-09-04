@@ -1349,6 +1349,10 @@ footer a {
           box-sizing: border-box !important;
      }
 
+     .main-nav li a {
+          font-size: 14px !important;
+     }
+
      .hero {
           padding: 55px 25px;
           animation: none;
@@ -1449,7 +1453,8 @@ footer a {
           transform: none;
           padding-top: 80px;
           margin: 0 !important;
-          gap: 24px;
+          line-height: 1.5;
+          gap: 2px;
           box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
           z-index: 9999;
 
@@ -1469,11 +1474,12 @@ footer a {
           padding-right: 10px;
           text-align: center;
           color: #1e292b;
-          font-size: 25px;
+          font-size: 14px !important;
           display: block;
-          padding: 15px 0;
+          padding: 10px 0;
           letter-spacing: 1.3px;
           transition: all 0.3s;
+          border-bottom: 1px solid #e0e0e0;
      }
 
      .main-nav li a:hover,
